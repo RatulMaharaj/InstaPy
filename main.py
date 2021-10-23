@@ -17,7 +17,7 @@ session.set_dont_like(["naked", "nsfw"])
 session.set_user_interact(amount=2, randomize=True, percentage=60, media="Photo")
 session.follow_user_followers(
     ["istoreza", "uctjustkidding"],
-    amount=10,
+    amount=30,
     randomize=False,
     interact=True,
 )
