@@ -9,6 +9,6 @@ load_dotenv()
 username = os.getenv("USERNAME")
 pwd = os.getenv("PASSWORD")
 
-driver = webdriver.Firefox()
+driver = webdriver.Firefox("/usr/local/bin/geckodriver")
 
 driver.get("https://instagram.com")
